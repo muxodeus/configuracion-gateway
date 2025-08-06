@@ -1,0 +1,28 @@
+{
+  "medidor_id": "EPM-123",
+  "ip": "192.168.1.50",
+  "direccion_modbus": 1,
+  "registros": [
+    {
+      "nombre": "tension_L1",
+      "offset": 0,
+      "cantidad": 2,
+      "escala": 0.1,
+      "tipo": "float"
+    },
+    {
+      "nombre": "corriente_L1",
+      "offset": 2,
+      "cantidad": 2,
+      "escala": 0.01,
+      "tipo": "float"
+    },
+    {
+      "nombre": "potencia_activa_total",
+      "offset": 4,
+      "cantidad": 2,
+      "escala": 1,
+      "tipo": "int"
+    }
+  ]
+}
