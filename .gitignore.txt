@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+package-lock.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación (si alguna vez usas TS)
+dist/
+build/
+*.tsbuildinfo
+
+# Archivos de entorno (si decides usar .env)
+.env
+.env.local
+.env.*.local
+
+# PM2 dumps
+dump.pm2

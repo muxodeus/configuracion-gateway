@@ -1,0 +1,20 @@
+{
+  "endianness": "LE",
+  "channels": [
+    {
+      "channel": "A",
+      "params": [
+        { "name": "voltage", "address": 1010, "type": "Float32", "unit": "V" },
+        { "name": "current", "address": 1000, "type": "Float32", "unit": "A" },
+        { "name": "p_act", "address": 1028, "type": "Float32", "unit": "kW" },
+        { "name": "p_react", "address": 1036, "type": "Float32", "unit": "kVAr" },
+        { "name": "p_app", "address": 1044, "type": "Float32", "unit": "kVA" },
+        { "name": "pf", "address": 1052, "type": "Float32", "unit": "" },
+        { "name": "energy_import", "address": 2600, "type": "UInt32", "unit": "kWh" },
+        { "name": "demand_p_act", "address": 3020, "type": "Float32", "unit": "kW" },
+        { "name": "ithd", "address": 4000, "type": "Float32", "unit": "%" },
+        { "name": "vthd", "address": 5000, "type": "Float32", "unit": "%" }
+      ]
+    }
+  ]
+}

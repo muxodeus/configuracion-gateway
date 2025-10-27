@@ -1,0 +1,14 @@
+[
+  {
+    "site": "Bomba de Agua",
+    "meter": "PQGenius PQA",
+    "gw": "GW01",
+    "ip": "192.168.4.205",
+    "port": 502,
+    "unitId": 1,
+    "brand": "PQGenius",
+    "model": "pqgenius_pqa",
+    "netmask": "255.255.255.0",
+    "gateway": "192.168.4.1"
+  }
+]

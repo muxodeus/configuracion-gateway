@@ -1,0 +1,9 @@
+{
+  "name": "gw-agent",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "mqtt": "^5.0.0",
+    "modbus-serial": "^8.0.6"
+  }
+}
